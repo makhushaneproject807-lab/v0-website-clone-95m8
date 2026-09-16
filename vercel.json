@@ -1,12 +1,10 @@
 {
-  "buildCommand": "next build",
-  "devCommand": "next dev",
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
   "installCommand": "npm ci",
   "framework": "nextjs",
   "nodeVersion": "18.x",
   "env": {
-    "NEXT_PUBLIC_API_URL": {
-      "value": "http://localhost:3000"
-    }
+    "NEXT_PUBLIC_API_URL": "@next_public_api_url"
   }
 }
