@@ -71,6 +71,10 @@ This project is configured for deployment on [Vercel](https://vercel.com).
 2. Vercel will automatically build and deploy to production
 3. Monitor deployment status in the [Vercel Dashboard](https://vercel.com/dashboard)
 
+### Preview Deployments
+
+Every pull request automatically generates a preview deployment URL for testing.
+
 ### Environment Variables
 
 Create a `.env.local` file for local development:
