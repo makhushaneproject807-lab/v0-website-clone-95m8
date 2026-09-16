@@ -3,10 +3,9 @@
   "devCommand": "next dev",
   "installCommand": "npm ci",
   "framework": "nextjs",
-  "nodeVersion": "18.x",
   "env": {
     "NEXT_PUBLIC_API_URL": {
-      "value": "http://localhost:3000"
+      "value": "https://api.example.com"
     }
   }
 }
