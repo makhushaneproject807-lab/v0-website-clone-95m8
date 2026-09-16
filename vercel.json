@@ -1,11 +1,6 @@
 {
   "buildCommand": "next build",
-  "devCommand": "next dev",
   "installCommand": "npm ci",
   "framework": "nextjs",
-  "nodeVersion": "20.x",
-  "env": {
-    "NEXT_PUBLIC_API_URL": { "default": "https://api.example.com" },
-    "NODE_ENV": { "default": "production" }
-  }
+  "nodeVersion": "20.x"
 }
