@@ -6,6 +6,9 @@
   "env": {
     "NEXT_PUBLIC_API_URL": {
       "default": "https://api.example.com"
+    },
+    "NODE_ENV": {
+      "default": "production"
     }
   }
 }
